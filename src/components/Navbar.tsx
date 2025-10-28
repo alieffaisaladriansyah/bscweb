@@ -13,7 +13,7 @@ import {
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import shopeeLogo from "@/assets/shopee-logo.png";
 import tokopediaLogo from "@/assets/tokopedia-logo.png";
-import logonav from "@/assets/logonav.png"; // ✅ tambahkan ini
+import logonav from "@/assets/logonav.png"; // logo busalime navbar
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -45,7 +45,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          {/* ✅ Logo */}
+          {/* Logo */}
           <button
             onClick={() => scrollToSection("home")}
             className="cursor-pointer"
@@ -110,7 +110,7 @@ const Navbar = () => {
                     <div className="w-[300px] p-4">
                       <div className="space-y-2">
                         <a
-                          href="https://shopee.co.id"
+                          href="https://shopee.co.id/gadgetplus69?entryPoint=ShopBySearch&searchKeyword=gadgetplus69"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="flex items-center gap-3 px-4 py-3 hover:bg-accent/10 rounded-md transition-colors"

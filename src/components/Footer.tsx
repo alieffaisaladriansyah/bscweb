@@ -73,7 +73,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="https://shopee.co.id"
+                  href="https://shopee.co.id/gadgetplus69?entryPoint=ShopBySearch&searchKeyword=gadgetplus69"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/80 hover:text-accent transition-colors text-sm"
@@ -142,7 +142,7 @@ const Footer = () => {
             {t("footer.copyright")}
           </p>
           <div className="flex items-center gap-2">
-            <img src="/favicon.png" alt="Busalime" className="w-6 h-6" />
+            <img src="/faviconfooter.png" alt="Busalime" className="w-20 h-20" />
             <span className="text-white/80 text-sm">{t("footer.natural")}</span>
           </div>
         </div>

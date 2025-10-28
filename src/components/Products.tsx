@@ -67,6 +67,7 @@ const Products = () => {
   return (
     <section id="products" className="py-20 bg-muted/30">
       <div className="container mx-auto px-4">
+        {/* Judul */}
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
             {t("products.title")}
@@ -76,11 +77,12 @@ const Products = () => {
           </p>
         </div>
 
+        {/* Grid produk */}
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {products.map((product, index) => (
             <Card
               key={product.id}
-              className="hover:shadow-2xl transition-all duration-300 animate-slide-up overflow-hidden border-2 hover:border-accent bg-card"
+              className="hover:scale-105 hover:shadow-2xl transition-all duration-500 border-2 hover:border-accent bg-card cursor-pointer overflow-hidden"
               style={{ animationDelay: `${index * 0.15}s` }}
             >
               {/* Gambar produk */}
@@ -88,10 +90,9 @@ const Products = () => {
                 <img
                   src={product.image}
                   alt={product.name}
-                  className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                  className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
                 />
-                {/* Shadow hitam lembut di bawah gambar */}
-                <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-black/40 to-transparent"></div>
+                <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-black/10 to-transparent" />
               </div>
 
               {/* Konten produk */}
@@ -142,7 +143,7 @@ const Products = () => {
 
                     <div className="flex flex-col gap-4 py-4">
                       <a
-                        href="https://shopee.co.id"
+                        href="https://shopee.co.id/gadgetplus69?entryPoint=ShopBySearch&searchKeyword=gadgetplus69"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-4 p-4 border-2 rounded-lg hover:border-accent hover:bg-accent/5 transition-all"

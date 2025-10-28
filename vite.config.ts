@@ -3,14 +3,14 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 export default defineConfig({
-  base: "/busalimewebsite/",
-  build: {
-    outDir: "dist",
-  },
+  // base: "/busalimewebsite/", // ← hapus atau beri komentar
   plugins: [react()],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
+  },
+  build: {
+    outDir: "dist",
   },
 });

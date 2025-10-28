@@ -171,7 +171,7 @@ const Contact = () => {
             {/* Map */}
             <Card className="border-2 overflow-hidden h-64">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.56347862248!2d108.24786!3d-6.3267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6ebdf5cfb6c8c7%3A0x3027a76e352bca0!2sIndramayu%20Regency%2C%20West%20Java%2C%20Indonesia!5e0!3m2!1sen!2sus!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d482362.44957408175!2d107.86700928038998!3d-6.442447903647734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6ec8523dd78761%3A0x301e8f1fc28b930!2sKabupaten%20Indramayu%2C%20Jawa%20Barat!5e1!3m2!1sid!2sid!4v1761592447454!5m2!1sid!2sid%22%20width=%22600%22%20height=%22450%22%20style=%22border:0;%22%20allowfullscreen=%22%22%20loading=%22lazy%22%20referrerpolicy=%22no-referrer-when-downgrade"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

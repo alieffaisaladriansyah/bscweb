@@ -74,7 +74,7 @@ const idTranslations: Record<string, string> = {
 
   // Hero
   "hero.title": "Bersih Berkilau dengan Busalime",
-  "hero.subtitle": "Alami, kuat, dan lembut di tangan Anda.",
+  "hero.subtitle": "Cairan pencuci piring dengan bahan yang lembut di tangan.",
   "hero.cta": "Jelajahi Produk Kami",
 
   // About
@@ -100,7 +100,7 @@ const idTranslations: Record<string, string> = {
     "Aroma jeruk nipis segar dan zesty untuk kebersihan alami",
   "products.lemon.name": "Busalime Lemon",
   "products.lemon.desc":
-    "Aroma lemon cerah yang memberikan energi pada pencucian piring Anda",
+    "Aroma lemon yang harum dan efektif untuk membersihkan",
   "products.apple.name": "Busalime Apel",
   "products.apple.desc": "Aroma apel segar untuk kebersihan yang menyegarkan",
   "products.feature1": "Ekstrak alami",
@@ -116,9 +116,9 @@ const idTranslations: Record<string, string> = {
   "products.whereToBuy": "Tempat Membeli",
   "products.chooseShop": "Pilih platform belanja favorit Anda",
   "products.shopee": "Belanja di Shopee",
-  "products.shopee.desc": "Pengiriman cepat tersedia",
+  "products.shopee.desc": "Shopee/Busalime Official",
   "products.tokopedia": "Belanja di Tokopedia",
-  "products.tokopedia.desc": "Opsi pembayaran aman",
+  "products.tokopedia.desc": "Tokopedia/Busalime Official",
 
   // Tips
   "tips.title": "Tips & Topik",
@@ -174,9 +174,9 @@ const idTranslations: Record<string, string> = {
 
   // Footer
   "footer.tagline":
-    "Cairan pencuci piring alami dan efektif untuk rumah yang bersih berkilau.",
-  "footer.quickLinks": "Tautan Cepat",
-  "footer.shop": "Belanja",
+    "Cairan pencuci piring lembut dan efektif bersihkan lemak pada alat dapur.",
+  "footer.quickLinks": "Navigasi",
+  "footer.shop": "Belanja disini",
   "footer.contactInfo": "Informasi Kontak",
   "footer.copyright": "© 2025 Busalime. Hak cipta dilindungi.",
   "footer.natural": "PT.Busalime Sukses Cemerlang",
@@ -194,7 +194,7 @@ const enTranslations: Record<string, string> = {
 
   // Hero
   "hero.title": "Sparkling Clean with Busalime",
-  "hero.subtitle": "Natural, powerful, and gentle on your hands.",
+  "hero.subtitle": "Dishwashing liquid gentle on hands.",
   "hero.cta": "Explore Our Products",
 
   // About
@@ -234,9 +234,9 @@ const enTranslations: Record<string, string> = {
   "products.whereToBuy": "Where to Buy",
   "products.chooseShop": "Choose your preferred shopping platform",
   "products.shopee": "Shop on Shopee",
-  "products.shopee.desc": "Fast delivery available",
+  "products.shopee.desc": "Shopee/Busalime Official",
   "products.tokopedia": "Shop on Tokopedia",
-  "products.tokopedia.desc": "Secure payment options",
+  "products.tokopedia.desc": "Tokopedia/Busalime Official",
 
   // Tips
   "tips.title": "Tips & Topics",
@@ -269,7 +269,7 @@ const enTranslations: Record<string, string> = {
     "Always rinse dishes thoroughly with clean water after washing to remove all detergent residue.",
 
   // Contact
-  "contact.title": "Get In Touch",
+  "contact.title": "Reach Us",
   "contact.subtitle": "Have questions? We would love to hear from you.",
   "contact.info": "Contact Information",
   "contact.info.desc": "Reach out to us through any of these channels",
@@ -292,9 +292,9 @@ const enTranslations: Record<string, string> = {
 
   // Footer
   "footer.tagline":
-    "Natural and effective dishwashing liquid for a sparkling clean home.",
-  "footer.quickLinks": "Quick Links",
-  "footer.shop": "Shop",
+    "Dishwashing liquid gently and effectively cleans grease on kitchen utensils..",
+  "footer.quickLinks": "Navigation",
+  "footer.shop": "Shop Here",
   "footer.contactInfo": "Contact Info",
   "footer.copyright": "© 2025 Busalime. All rights reserved.",
   "footer.natural": "PT.Busalime Sukses Cemerlang",
